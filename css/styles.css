@@ -1,0 +1,152 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1.5rem;
+    }
+
+p{
+    color:#8f8f8f;
+    line-height: 2;
+}
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+/* Title Section */
+#title{
+    background-color: #ff4c68;
+    color:white;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Download-button */
+.download-button{
+    margin:5% 3% 5% 0;
+}
+/* title-image */
+.title-img{
+    width: 60%;
+    padding-left: 5%;
+    transform:rotate(25deg);
+    position: absolute;
+    right: 30%;
+    
+}
+/*Features Section*/
+
+#features{
+    position: relative;;
+    z-index: 1;
+    background-color: #fff;
+}
+.icon{
+    color:#EF8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+.best{
+    padding: 5%;
+    line-height: 2;
+}
+/* Testimonials */
+#testimonials{
+    background-color: #EF8172;
+    color:#ffff;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.test-img{
+    width:10%;
+    border-radius: 100%;
+    margin:10px;
+}
+#press{
+    background-color: #EF8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    padding:20px 20px 50px;
+}
+/* Pricing Section */
+#pricing{
+    padding:100px;
+}
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+@media(max-width:1100px){
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+/* Call to Action */
+#cta{
+    background-color: #ff4c68;
+    color:#fff;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.h3-foot{
+    font-size: 3.5rem;
+    width:80%;
+    margin: auto;
+    line-height: 1.5;
+}
+/* Footer */
+#footer{
+    background-color: #fff;
+}
+.f-icon{
+    padding: 20px 10px;
+    color:black;
+}
+.f-icon:hover{
+    color: #EF8172;
+}
